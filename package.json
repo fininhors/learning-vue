@@ -1,0 +1,22 @@
+{
+  "name": "basic-vue-js-web-app",
+  "version": "0.1.0",
+  "description": "Simple Vue JS web app to demonstrate the framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-jarrett/basic-vue-js-web-app.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Matt Jarrett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt-jarrett/basic-vue-js-web-app/issues"
+  },
+  "homepage": "https://github.com/matt-jarrett/basic-vue-js-web-app#readme"
+}
