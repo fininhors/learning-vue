@@ -16,9 +16,25 @@ cd basic-vue-js-web-app
 npm install
 ```
 
-### Usage
-Lint the code. Frequently used to find problematic patterns or code that doesn’t adhere to certain
-style guidelines.
+## Running Development Linting and Tests
+**Run Linting**
 ```
 npm run lint
+```
+
+**Run linting and fix errors**
+```
+npm run lint-and-fix
+```
+
+**Run Tests**
+```
+npm run test
+```
+
+**Run Continuous Integration**
+
+Runs linting and tests
+```
+npm run ci
 ```
