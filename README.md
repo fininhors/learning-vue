@@ -8,8 +8,8 @@ Setup and use requires [Git](https://git-scm.com/),
 [Node JS (8.X.X or later)](https://nodejs.org/en/), and a text editor such as
 [VS Code](https://code.visualstudio.com/).
 
-If you're on a Mac, I'd suggest using
-[Homebrew](https://brew.sh/) for installing the required software listed in Setup.
+If you're on a Mac, I'd suggest using [Homebrew](https://brew.sh/) for installing the required
+software listed in Setup.
 
 ```bash
 git clone https://github.com/matt-jarrett/basic-vue-js-web-app.git
@@ -68,4 +68,6 @@ Run all tests
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For a detailed explanation on how things work, check out the
+[guide](http://vuejs-templates.github.io/webpack/) and
+[docs for vue-loader](http://vuejs.github.io/vue-loader).
