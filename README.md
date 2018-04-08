@@ -1,6 +1,4 @@
-# Basic Vue JS App
-
-## In Development
+# Basic Vue JS App (_in development_)
 
 ### What's it do?
 Builds a simple [Vue JS](https://vuejs.org/) app.
