@@ -3,10 +3,10 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        vue-js-news-app
+        Vue JS News App
       </h1>
       <h2 class="subtitle">
-        Vue JS News App
+        By: Matt Jarrett
       </h2>
       <div class="links">
         <a
