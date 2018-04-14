@@ -196,7 +196,8 @@ module.exports = {
       "never"
     ],
     "object-curly-spacing": [
-      "error"
+      "error",
+      "always"
     ],
     "padded-blocks": [
       "error",
