@@ -12,12 +12,10 @@
   </div>
 </template>
 <script>
-import axios from "../plugins/axios"
-
+import { mapState } from "vuex"
 export default {
-  async asyncData() {
-    const response = await axios.get("users")
-    return { users: response.data }
-  }
+  computed: mapState([
+    "users"
+  ])
 }
 </script>
