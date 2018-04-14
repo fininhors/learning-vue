@@ -15,11 +15,9 @@
 import axios from "../plugins/axios"
 
 export default {
-  asyncData() {
-    return axios.get("users")
-      .then((response) => ({
-        users: response.data
-      }))
+  async asyncData() {
+    const response = await axios.get("users")
+    return { users: response.data }
   }
 }
 </script>
