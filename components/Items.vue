@@ -12,7 +12,7 @@
           {{ item.title }}
         </div>
         <div class="details">
-          by {{ item.by }} {{ item.time }}
+          by {{ item.by }} {{ item.time | timeSense }}
         </div>
         <div class="comments">
           {{ item.descendants }} comments
