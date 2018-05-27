@@ -276,6 +276,9 @@ module.exports = {
     ],
     "quote-props": [
       "off"
+    ],
+    "vue/max-attributes-per-line": [
+      "off"
     ]
   }
 }
