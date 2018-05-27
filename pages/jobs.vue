@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Job Stories</h1>
     <Items/>
   </div>
 </template>
