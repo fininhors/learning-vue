@@ -108,12 +108,6 @@ module.exports = {
       "error",
       "unix"
     ],
-    "max-len": [
-      "error",
-      {
-        "code": 100
-      }
-    ],
     "new-cap": [
       "error",
       {
@@ -278,6 +272,15 @@ module.exports = {
       "off"
     ],
     "vue/max-attributes-per-line": [
+      "off"
+    ],
+    "vue/require-prop-types": [
+      "off"
+    ],
+    "vue/order-in-components": [
+      "off"
+    ],
+    "max-len": [
       "off"
     ]
   }
