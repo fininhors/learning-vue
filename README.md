@@ -1,9 +1,11 @@
-# Vue JS News App (_in development_)
+# Vue JS News App
 
 ![logo](./media/logo.gif)
 
 ### What's it do?
 Builds a news app with [Vue JS](https://vuejs.org/).
+
+![demo](./media/demo.gif)
 
 ## Setup
 Setup and use requires [Git](https://git-scm.com/),
