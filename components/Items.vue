@@ -13,11 +13,11 @@
         </div>
         <div class="details">
           <nuxt-link :to="'/user/' + item.by">by {{ item.by }}</nuxt-link>
-          <p class="ma0 i f7">{{ item.time | getTimeSense }}</p>
+          <p class="ma0 i f7">{{ item.time | getTimeSince }}</p>
         </div>
         <template v-if="item.descendants">
           <div class="comments">
-            {{ item.descendants }} comments
+            <nuxt-link :to="'/item/' + item.id">{{ item.descendants }} comments</nuxt-link>
           </div>
         </template>
       </li>
