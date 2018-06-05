@@ -2,7 +2,7 @@ import Vue from "vue"
 import { distanceInWordsToNow } from "date-fns"
 import { parse } from "url"
 
-Vue.filter("getTimeSense", (timestamp) => {
+Vue.filter("getTimeSince", (timestamp) => {
   const time = Number(timestamp) * 1000
   return distanceInWordsToNow(time)
 })
