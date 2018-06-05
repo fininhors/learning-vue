@@ -2,10 +2,10 @@
   <div>
     <div class="bb mb4">
       <div class="mb1">
-        <span class="i">{{ item.id }} </span>
-      <nuxt-link :to="'/user/' + item.by">{{ item.by }}</nuxt-link> {{ item.time | getTimeSince }} ago</div>
+        <span class="i">{{ item.id }} - </span>
+        <nuxt-link :to="'/user/' + item.by">{{ item.by }}</nuxt-link> {{ item.time | getTimeSince }} ago
+      </div>
       <div class="f6" v-html="item.text"/>
-
     </div>
     <ul class="ml3">
       <comment v-for="id in item.kids" :key="id" :id="id"/>
