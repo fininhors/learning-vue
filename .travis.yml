@@ -1,12 +1,11 @@
 language: node_js
 node_js:
-  - "6"
   - "8"
   - "10"
 env:
   - CI=true
 install: npm install
-before_script: npm run ci
+before_script: npm run lint
 sudo: false
 branches:
   only:
