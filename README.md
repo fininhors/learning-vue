@@ -1,7 +1,7 @@
 # Vue JS News App
 
 ![logo](./media/logo.gif)
-[![Build Status](https://travis-ci.org/matt-jarrett/vue-js-news-app.svg?branch=master)](https://travis-ci.org/matt-jarrett/vue-js-news-app)
+[![Build Status](https://travis-ci.org/cujarrett/vue-js-news-app.svg?branch=master)](https://travis-ci.org/cujarrett/vue-js-news-app)
 
 ### What's it do?
 Builds a news app with [Vue JS](https://vuejs.org/).
