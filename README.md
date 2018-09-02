@@ -17,7 +17,7 @@ If you're on a Mac, I'd suggest using [Homebrew](https://brew.sh/) for installin
 software listed in Setup.
 
 ```bash
-git clone https://github.com/matt-jarrett/basic-vue-js-web-app.git
+git clone https://github.com/cujarrett/basic-vue-js-web-app.git
 cd basic-vue-js-web-app
 npm install
 ```
