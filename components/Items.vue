@@ -1,7 +1,7 @@
 <template>
   <div class="code">
     <ul class="list pa2">
-      <li class="item f6" v-for="item in items" :key="item.id">
+      <li v-for="item in items" :key="item.id" class="item f6">
         <div class="score f4">
           {{ item.score }}
         </div>
@@ -12,12 +12,18 @@
           </template>
         </div>
         <div class="details">
-          <nuxt-link :to="'/user/' + item.by">by {{ item.by }}</nuxt-link>
-          <p class="ma0 i f7">{{ item.time | getTimeSince }}</p>
+          <nuxt-link :to="'/user/' + item.by">
+            by {{ item.by }}
+          </nuxt-link>
+          <p class="ma0 i f7">
+            {{ item.time | getTimeSince }}
+          </p>
         </div>
         <template v-if="item.descendants">
           <div class="comments">
-            <nuxt-link :to="'/item/' + item.id">{{ item.descendants }} comments</nuxt-link>
+            <nuxt-link :to="'/item/' + item.id">
+              {{ item.descendants }} comments
+            </nuxt-link>
           </div>
         </template>
       </li>

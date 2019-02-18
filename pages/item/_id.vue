@@ -1,17 +1,20 @@
 <template>
   <div class="pa4 code">
-    <div class="f2 mb2">{{ item.title }}
+    <div class="f2 mb2">
+      {{ item.title }}
       <template v-if="item.url">
         <a :href="item.url">{{ item.url | getHostName }}</a>
       </template>
     </div>
     <div class="f3">
-      <nuxt-link :to="'/user/' + item.by">{{ item.by }}</nuxt-link>
+      <nuxt-link :to="'/user/' + item.by">
+        {{ item.by }}
+      </nuxt-link>
       <span class="i"> {{ item.time | getTimeSince }} ago</span>
     </div>
 
     <ul>
-      <comment v-for="id in item.kids" :key="id" :id="id"/>
+      <comment v-for="id in item.kids" :id="id" :key="id" />
     </ul>
   </div>
 </template>
