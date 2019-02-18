@@ -10,9 +10,8 @@ module.exports = {
     "plugin:vue/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 2018,
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
       "jsx": true
     },
     "sourceType": "module"
