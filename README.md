@@ -1,4 +1,5 @@
-# Vue JS News App
+## What is it?
+It's a small set of hacks to learn the the basics of [Vue](https://vuejs.org/). Vue is a popular Single Page App framework.
 
 ![logo](./media/logo.gif)
 [![Build Status](https://travis-ci.org/cujarrett/vue-js-news-app.svg?branch=master)](https://travis-ci.org/cujarrett/vue-js-news-app)
